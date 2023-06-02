@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root{
     --color: rgb(6, 181, 187);
 }
@@ -7,6 +9,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 #content{
@@ -130,6 +133,10 @@ label{
 input{
     width: 15vw;
     height: 3vh;
+}
+
+input:focus{
+    box-shadow: 0 0 5px 5px var(--color);
 }
 
 .firstName{
